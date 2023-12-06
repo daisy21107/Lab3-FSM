@@ -26,4 +26,13 @@ always_ff @ (posedge clk)
 		    count <= count - 1'b1;
 	        end
         end
+
+// f1_fsm T3FSM (
+//     .clk (clk),
+//     .rst (rst),
+//     .en (tick),
+//     .data_out (data_out)
+// );
+
+
 endmodule
